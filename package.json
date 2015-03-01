@@ -1,0 +1,31 @@
+{
+  "name": "lift-redis",
+  "version": "0.0.1",
+  "description": "Compose redis commands into promises, using node-redis",
+  "main": "dist/lift-redis.js",
+  "scripts": {
+    "build": "babel ./lib/lift-redis.js > dist/lift-redis.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colinhicks/lift-redis.git"
+  },
+  "keywords": [
+    "redis",
+    "node-redis",
+    "promises",
+    "es6"
+  ],
+  "author": "Colin Hicks <colin.hicks@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colinhicks/lift-redis/issues"
+  },
+  "homepage": "https://github.com/colinhicks/lift-redis",
+  "dependencies": {
+    "redis": "^0.12.1"
+  },
+  "devDependencies": {
+    "babel": "^4.6.3"
+  }
+}
